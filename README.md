@@ -71,24 +71,37 @@ echo "Primera línea" > notas.txt
 echo "Segunda línea" >> notas.txt
 echo "Tercera línea" >> notas.txt
 
+<img width="945" height="301" alt="image" src="https://github.com/user-attachments/assets/bfe1fb79-f679-45dd-aa38-2a585ad8459b" />
+
+
 Paso 3. Copiar y mover archivos.
 
 cp notas.txt ../scripts/backup_notas.txt
 mv ../scripts/backup_notas.txt ../imagenes/
+
+<img width="770" height="250" alt="image" src="https://github.com/user-attachments/assets/6545bb45-baf7-43f4-8c44-fe8c6ffd710a" />
 
 Paso 4. Crear resumen.txt y redirigir contenido.
 
 cat notas.txt > resumen.txt
 echo "Nueva línea en resumen" >> resumen.txt
 
+<img width="702" height="272" alt="image" src="https://github.com/user-attachments/assets/9d46bed7-fa0e-4399-8d42-b37c52cb05a1" />
+
+
 Paso 5. Eliminar archivo y carpeta.
 
 rm ../imagenes/backup_notas.txt
 rmdir ../imagenes
 
+<img width="812" height="200" alt="image" src="https://github.com/user-attachments/assets/f3ded492-e411-4b53-9187-1de3bda6fedb" />
+
 Paso 6. Guardar historial en archivo.
 
 history | tee tarea-s1-Fernando_Castro.txt
+
+<img width="746" height="658" alt="image" src="https://github.com/user-attachments/assets/a6c4b10a-3921-46aa-a3cf-1304636fe7ea" />
+
 
 ## 9. Resultados esperados:
 Se armó la estructura de carpetas (documentos, imagenes, scripts).
