@@ -4,7 +4,7 @@
 Comandos de Linux
 
 ## 2. Tiempo de duración  
-20 minutos.  
+15 minutos.  
 
 ## 3. Fundamentos  
 
